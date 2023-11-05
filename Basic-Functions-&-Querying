@@ -13,7 +13,7 @@ NOT NULL
 IS NULL
 CONCAT, AS
 
-
+Input these codes through the link to see results
 
 # Select all columns of the database. 
 # SELECT= select a column 
