@@ -1,10 +1,23 @@
 --Dataset: SanFranciscoFilmLocations
 --Source: IBM - https://labs.cognitiveclass.ai/v2/tools/datasette?ulid=ulid-9732c1d52618017ef874e02c44800f212ce4bb81
 
-# Select all columns of the database.
+# Select all columns of the database. \
+# SELECT= select a column, 
+# *= all columns
+# FROM= indicating which table we are pulling from
+# ;= ending statement
 
 SELECT * FROM FilmLocations;
 
-# Select the column that contains the titles of movies in alphabetical order.
+# Select the column that contains the titles of movies in alphabetical order. 
+# DISTINCT= nothing in this column will repeat 
+# ORDER BY= selecting the order in which data is presented
+# ASC= orders the titles ascending in alphabetical order
 
 SELECT DISTINCT Title FROM FilmLocations ORDER BY Title ASC;
+
+#List the title of movies in alphabetical order starting with the letter "M".
+# WHERE= specifying where and what section of 'Titles' we'll be pulling
+# (>= '%')= sorting through text in alphabetical order, 'B%' '%@gmail.com'
+
+SELECT DISTINCT Title FROM FilmLocations WHERE Title >= 'M%' ORDER BY Title ASC;
