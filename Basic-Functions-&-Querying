@@ -1,5 +1,19 @@
 --Dataset: SanFranciscoFilmLocations
 --Source: IBM - https://labs.cognitiveclass.ai/v2/tools/datasette?ulid=ulid-9732c1d52618017ef874e02c44800f212ce4bb81
+Statement, Function, Symbol List
+SELECT, FROM, WHERE
+*
+;
+DISTINCT
+ORDER BY
+ASC, DESC
+>=, <=, <, >, =, AND, NOT
+LIKE, '%'
+NOT NULL
+IS NULL
+CONCAT, AS
+
+
 
 # Select all columns of the database. 
 # SELECT= select a column 
