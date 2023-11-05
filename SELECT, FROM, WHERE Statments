@@ -1,8 +1,8 @@
 --Dataset: SanFranciscoFilmLocations
 --Source: IBM - https://labs.cognitiveclass.ai/v2/tools/datasette?ulid=ulid-9732c1d52618017ef874e02c44800f212ce4bb81
 
-# Select all columns of the database. \
-# SELECT= select a column, 
+# Select all columns of the database. 
+# SELECT= select a column 
 # *= all columns
 # FROM= indicating which table we are pulling from
 # ;= ending statement
