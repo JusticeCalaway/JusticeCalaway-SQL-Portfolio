@@ -26,7 +26,7 @@ SELECT * FROM FilmLocations;
 
 # Select the column that contains the titles of movies in alphabetical order. 
 # DISTINCT= nothing in this column will repeat 
-# ORDER BY= selecting the order in which data is presented
+# ORDER BY= selecting which column we are putting in order
 # ASC= orders the titles ascending in alphabetical order
 
 SELECT DISTINCT Title FROM FilmLocations ORDER BY Title ASC;
