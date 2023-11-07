@@ -58,3 +58,9 @@ INSERT INTO FilmLocations (Title, ReleaseYear, Location, ProductionCompany, Dist
 
 UPDATE FilmLocations SET ReleaseYear= '2024' WHERE Title= 'Mind Matrix';
 
+# Objective: Remove data for the movie Mind Matrix.
+# DELETE FROM= select which table we will delete from
+
+DELETE FROM FilmLocations WHERE Title IN ('Mind Matrix');
+
+
