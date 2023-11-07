@@ -16,7 +16,7 @@ CONCAT, AS
 
 Input these codes through the link to see results
 
-# Objective: Select all columns in the database. 
+# Objective: Select all columns in the database to view. 
 # SELECT= select a column 
 # *= all columns
 # FROM= indicating which table we are pulling from
