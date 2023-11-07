@@ -25,7 +25,7 @@ CONCAT, AS
 
 SELECT * FROM FilmLocations;
 
-# Objective: Select the column that contains the titles of movies in alphabetical order. 
+# Objective: Select the column that contains the titles of movies and list them in alphabetical order. 
 # DISTINCT= nothing in this column will repeat 
 # ORDER BY= selecting which column we are putting in order
 # ASC= orders the titles ascending in alphabetical order
