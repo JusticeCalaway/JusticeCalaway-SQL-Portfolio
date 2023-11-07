@@ -5,7 +5,7 @@
 SELECT, FROM, WHERE
 *
 ;
-DISTINCT
+DISTINCT, COUNT
 ORDER BY
 ASC, DESC
 >=, <=, <, >, =, AND, NOT
@@ -31,8 +31,14 @@ SELECT * FROM FilmLocations;
 
 SELECT DISTINCT Title FROM FilmLocations ORDER BY Title ASC;
 
-#List the title of movies in alphabetical order starting with the letter "M".
+# List the title of movies in alphabetical order starting with the letter "M".
 # WHERE= specifying where and what section of 'Titles' we'll be pulling
 # (>= '%')= sorting through text in alphabetical order, 'B%' '%@gmail.com'
 
 SELECT DISTINCT Title FROM FilmLocations WHERE Title >= 'M%' ORDER BY Title ASC;
+
+# Select how many filming locations were used by Warner Bros.
+# COUNT= Count the number of rows
+# COUNT(*)= Count the number of rows from all columns
+
+SELECT COUNT(*) FROM FilmLocations WHERE Distributor= "Warner Bros. Pictures";
