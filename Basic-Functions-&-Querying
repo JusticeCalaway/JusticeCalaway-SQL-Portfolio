@@ -16,7 +16,7 @@ CONCAT, AS
 
 Input these codes through the link to see results
 
-# Select all columns of the database. 
+# Objective: Select all columns of the database. 
 # SELECT= select a column 
 # *= all columns
 # FROM= indicating which table we are pulling from
@@ -24,14 +24,14 @@ Input these codes through the link to see results
 
 SELECT * FROM FilmLocations;
 
-# Select the column that contains the titles of movies in alphabetical order. 
+# Objective: Select the column that contains the titles of movies in alphabetical order. 
 # DISTINCT= nothing in this column will repeat 
 # ORDER BY= selecting which column we are putting in order
 # ASC= orders the titles ascending in alphabetical order
 
 SELECT DISTINCT Title FROM FilmLocations ORDER BY Title ASC;
 
-# List the title of movies in alphabetical order starting with the letter "M".
+# Objective: List the title of movies in alphabetical order starting with the letter "M".
 # WHERE= specifying where and what section of 'Titles' we'll be pulling
 # (>= '%')= sorting through text in alphabetical order, 'B%' '%@gmail.com'
 
