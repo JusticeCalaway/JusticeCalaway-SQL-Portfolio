@@ -3,6 +3,7 @@
 
 -Statement, Function, Symbol List-
 SELECT, FROM, WHERE
+INSERT, UPDATE, DELETE
 *
 ;
 DISTINCT, COUNT
@@ -42,3 +43,12 @@ SELECT DISTINCT Title FROM FilmLocations WHERE Title >= 'M%' ORDER BY Title ASC;
 # COUNT(*)= Count the number of rows from all columns
 
 SELECT COUNT(*) FROM FilmLocations WHERE Distributor= "Warner Bros. Pictures";
+
+-These following codes do not have a source-
+
+# Create a new row of data for the FilmLocations database
+# INSERT INTO[TableName]= Create a new row in this table
+# VALUES= Set values for each column chosen
+
+INSERT INTO FilmLocations (Title, ReleaseYear, Location, ProductionCompany, Distributor, Director, Writer) VALUES ('Mind Matrix', '2023', 'Oklahoma', 'FOKW/LOVE', 'Spoog2', 'Justice Calaway', 'Justice Calaway');
+
