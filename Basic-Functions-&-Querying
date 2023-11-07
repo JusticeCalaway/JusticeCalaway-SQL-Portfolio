@@ -46,7 +46,7 @@ SELECT COUNT(*) FROM FilmLocations WHERE Distributor= "Warner Bros. Pictures";
 
 -These following codes do not have a source-
 
-# Create a new row of data for the FilmLocations database
+# Objective: Create a new row of data for the FilmLocations database
 # INSERT INTO[TableName]= Create a new row in this table
 # VALUES= Set values for each column chosen
 
