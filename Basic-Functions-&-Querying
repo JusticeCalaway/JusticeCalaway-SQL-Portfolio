@@ -50,5 +50,11 @@ SELECT COUNT(*) FROM FilmLocations WHERE Distributor= "Warner Bros. Pictures";
 # INSERT INTO [TableName]= Create a new row in this table
 # VALUES= Set values for each column chosen
 
-INSERT INTO FilmLocations (Title, ReleaseYear, Location, ProductionCompany, Distributor, Director, Writer) VALUES ('Mind Matrix', '2023', 'Oklahoma', 'FOKW/LOVE', 'Spoog2', 'Justice Calaway', 'Justice Calaway');
+INSERT INTO FilmLocations (Title, ReleaseYear, Location, ProductionCompany, Distributor, Director, Writer) VALUES ('Mind Matrix', '2023', 'Oklahoma', 'fOKw/Love', 'Spoog2', 'Justice Calaway', 'Justice Calaway');
+
+# Objective: Change the release date for the movie Mind Matrix to 2024.
+# UPDATE= select the table that will be updated
+# SET= select which columns will update with their updated values
+
+UPDATE FilmLocations SET ReleaseYear= '2024' WHERE Title= 'Mind Matrix';
 
