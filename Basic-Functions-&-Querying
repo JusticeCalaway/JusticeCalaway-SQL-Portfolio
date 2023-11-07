@@ -60,6 +60,7 @@ UPDATE FilmLocations SET ReleaseYear= '2024' WHERE Title= 'Mind Matrix';
 
 # Objective: Remove data for the movie Mind Matrix.
 # DELETE FROM= select which table we will delete from
+# IN= selecting which row we are deleting from
 
 DELETE FROM FilmLocations WHERE Title IN ('Mind Matrix');
 
