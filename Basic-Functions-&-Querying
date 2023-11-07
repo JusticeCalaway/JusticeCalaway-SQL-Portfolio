@@ -37,7 +37,7 @@ SELECT DISTINCT Title FROM FilmLocations ORDER BY Title ASC;
 
 SELECT DISTINCT Title FROM FilmLocations WHERE Title >= 'M%' ORDER BY Title ASC;
 
-# Select how many filming locations were used by Warner Bros.
+# Objective: Select how many filming locations were used by Warner Bros.
 # COUNT= Count the number of rows
 # COUNT(*)= Count the number of rows from all columns
 
