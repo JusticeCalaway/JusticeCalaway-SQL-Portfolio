@@ -21,7 +21,7 @@ CONCAT, AS
 # SELECT= select a column 
 # *= all columns
 # FROM= indicating which table we are pulling from
-# ;= ending statement
+# ;= end/terminate statement
 
 SELECT * FROM FilmLocations;
 
